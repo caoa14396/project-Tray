@@ -132,8 +132,8 @@ function inputFiletoArray(){                                                    
 
     var fs = require('fs');
     var array = fs.readFileSync('/Users/carlos.oliveros/Downloads/fileTrey.txt').toString().split("\n"); // *** EDIT PATH ***
-    for(i in array) {
-      console.log(array[i]);
-    }
+//     for(i in array) {
+//       console.log(array[i]);
+//     }
     return array;
 }
